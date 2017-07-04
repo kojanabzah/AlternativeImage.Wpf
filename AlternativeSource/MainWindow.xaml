@@ -4,9 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AlternativeSource"
+        xmlns:controls="clr-namespace:AlternativeSource.Controls"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <controls:AlternativeImage Source="http://server1/images/image1" 
+          AlternativeSource="https://media.licdn.com/mpr/mpr/p/1/005/07f/0e1/07ab226.jpg"/>
     </Grid>
 </Window>
