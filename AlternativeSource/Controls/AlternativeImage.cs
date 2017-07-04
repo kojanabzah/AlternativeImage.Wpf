@@ -13,6 +13,7 @@ namespace AlternativeSource.Controls
     {
 
         private bool _tryAlternativeSource ;
+
         public string AlternativeSource
         {
             get { return (string)GetValue(AlternativeSourceProperty); }
@@ -32,7 +33,7 @@ namespace AlternativeSource.Controls
         {
             _tryAlternativeSource = !string.IsNullOrEmpty(AlternativeSource);
 
-            //Note , ths  need to be unregistered 
+            //Note , ths need to be unregistered 
             ImageFailed += OnImageFailed;
         }
 
